@@ -1,0 +1,9 @@
+pm_api_url      = "https://proxmox.example.com:8006/api2/json"
+pm_tls_insecure = false
+
+# Use either user/password or API token authentication.
+pm_user     = "terraform@pve"
+pm_password = "change-me"
+
+# pm_api_token_id     = "terraform@pve!ci-token"
+# pm_api_token_secret = "change-me"
